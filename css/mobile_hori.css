@@ -1,0 +1,131 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: "Calibri";
+    letter-spacing: .01em;
+    line-height: 1.25em;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(../img/background.png);
+    min-height: 100%;
+}
+
+hr {
+    height: 1px;
+    background-color: #AAA;
+}
+
+hr {
+    height: 2px;
+    background-color: #AAA;
+}
+
+h1 {
+    font-size: .2em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 2px 0 2px 0;
+}
+
+h3 {
+    font-size: .9em;
+    font-weight: 500;
+    margin: 2px 0 2px 0;
+}
+
+h4, #left, #right, .offer_prefix {
+    display: none;
+}
+
+p {
+    margin: 5px 0 5px 0;
+    font-size: .9em;
+}
+
+header {
+    height: 40%;
+    width: 75%;
+    background-color: #1B1B1B;
+    color: transparent;
+    font-size: 1px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+nav {
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: crimson;
+    position: fixed;
+        top: 0;
+        left: 0;
+}
+
+nav > a {
+    color: #FFF;
+    font-family: "Calibri Light", "Calibri", "Trebuchet MS", "Ubuntu", "Verdana";
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.30em;
+    text-shadow: 1px 1px 1px #000;
+    margin: 8%;
+    transition: color .2s linear;
+    vertical-align: middle;
+    display: block;
+}
+
+nav > a:hover {
+    color: #222;
+}
+
+section {
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+section > * {
+    margin-top: 1%;
+    padding: .65%;
+}
+
+main {
+    padding: 1%;
+    margin-bottom: 4%;
+    float: right;
+    width: 73%;
+}
+
+.offer_article {
+    vertical-align: top;
+}
+
+.offer_article span {
+    width: 70px;
+}
+
+.offer_article > h1 {
+    font-size: 1.2em;
+}
+
+footer {
+    position: fixed;
+        bottom: 2%;
+        left: 8%;
+    color: #222;
+    text-align: center;
+    font-family: "Ubuntu Mono", "System", "Consolas";
+    font-size: .8em;
+}

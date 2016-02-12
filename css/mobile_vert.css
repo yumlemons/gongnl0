@@ -1,0 +1,108 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: "Calibri";
+    letter-spacing: .01em;
+    line-height: 1.25em;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+hr {
+    height: 2px;
+    background-color: #AAA;
+}
+
+h1 {
+    font-size: .2em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 2px 0 2px 0;
+}
+
+h3 {
+    font-size: .9em;
+    font-weight: 500;
+    margin: 2px 0 2px 0;
+}
+
+h4, #left, #right, .offer_prefix, footer {
+    display: none;
+}
+
+p {
+    margin: 5px 0 5px 0;
+    font-size: .9em;
+}
+
+header {
+    height: 22.5%;
+    background-color: #1B1B1B;
+    color: transparent;
+    font-size: 1px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: crimson;
+    padding: 1.5%;
+    text-align: center;
+}
+
+nav > a {
+    color: #FFF;
+    font-family: "Calibri Light", "Calibri", "Trebuchet MS", "Ubuntu", "Verdana";
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 4em;
+    padding: 0 3% 0 3%;
+    margin: 2% 0 2% 0;
+    text-shadow: 1px 1px 1px #000;
+    transition: color .2s linear;
+}
+
+nav > a:hover {
+    color: #222;
+}
+
+section {
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+section > * {
+    margin-top: 1%;
+    padding: .65%;
+}
+
+main {
+    width: 94%;
+    background-color: #FFF;
+    margin-bottom: 4%;
+    padding: 3%;
+}
+
+.offer_article {
+    vertical-align: top;
+}
+
+.offer_article span {
+    width: 70px;
+}
+
+.offer_article > h1 {
+    font-size: 1.2em;
+}
